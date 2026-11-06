@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header styles*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #fff;
+    height: 60px;
+    padding: 10px;
+     
+    
+}
+
+header>h1 {
+    color: rgb(30, 200, 223);
+   
+}
+
+.logo-text {
+    color: #000;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    margin: 10px;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav>ul>li>a:hover {
+    color: rgb(218, 124, 8);
+    margin: 3px;
+}
+
+/*Hero styles*/
+.hero {
+    background-image: linear-gradient(rgba(48, 255, 41, 0.5), rgb(0, 0, 0, 1)), url('/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+    padding: 6rem;
+}
+
+.hero>h1 {
+    color: #fff;
+    font-size: 3rem;
+    border-bottom-style: double;
+}
+
+.hero>p1 {
+    color: #d8d8d8;
+    font: 5rem;
+    font-weight: 1000;
+    color: #fff;
+     font-size: 30px
+}
+
+.hero>p {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(19, 16, 196);
+    border: none;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: rgb(8, 218, 71);
+}
+
+.btn-secondary {
+    background-color: rgb(19, 16, 196);
+    color: rgb(218, 124, 8);
+}
+
+.btn-secondary:hover {
+    background-color: rgb(218, 124, 8);
+    color: #fff;
+}
+
+.btn-container {
+    margin-top: 3rem;
+}
+
+/*About section styles*/
+.about {
+    text-align: start;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+section>h1 {
+    color: rgb(218, 8, 8);
+    margin: 20px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(82, 80, 80);
+}
+
+.left-container>span>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.left-container>span>ul>li {
+    list-style: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left-container>span>ul>li:hover {
+    color: rgb(218, 124, 8);
+}
+
+.right-container>img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Services section*/
+#services {
+    background-color: #746583;
+    text-align: start;
+}
+
+.card {
+    border: 1px solid #0c0a0a;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 5px 5px 5px rgb(122, 122, 121);
+}
+
+.card>h2 {
+    font-size: 18px;
+    color: #0a0909;
+    margin: 10px;
+}
+
+.card>p {
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+}
+
+.project-card {
+    border: 1px solid #535151;
+    padding: 10px;
+}
+
+.project-card>h2 {
+    color: #141310;
+    font: 200px;
+}
+
+.project-card>p {
+    color: rgb(24, 20, 16);
+    margin: 10px;
+}
+
+.project-card>a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(218, 8, 8);
+    border: none;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#testimonials {
+    background-color: rgb(83, 64, 64);
+}
+
+#contacts{
+      background-color: #bdb4cf;
+      text-align: center;
+      
+      
+      
+}
+#contacts>h1{
+    align-items: normal;
+}
+#contacts>div{
+    font-size: large;
+    font-weight: 900;
+
+    border:2px solid #420f0f;       
+    
+    
+     width: 700px;                    
+    padding: 50px;                  
+    margin: 15px auto
+
+}
+
+.hero-master{
+border-radius: 5px;
+box-shadow:10px 5px 5px rgb(29, 20, 20);
+text-align: start;
+align-items: flex-start;
+
+}
+
+footer{
+    background-color: #a0b193;
+    padding: 10px;
+}
+footer>p{
+     margin: 5px;
+    }
+
+.hero-content>p3{
+   font-size: large; 
+   color: #b93c3c;
+   margin: 5px;
+}
+
